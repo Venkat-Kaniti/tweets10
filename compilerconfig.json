@@ -1,0 +1,6 @@
+﻿[
+  {
+    "outputFile": "wwwroot/webpack.config.es5.js",
+    "inputFile": "wwwroot/webpack.config.js"
+  }
+]

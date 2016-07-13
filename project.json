@@ -1,0 +1,50 @@
+﻿{
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
+    "Microsoft.NETCore.DotNetHostPolicy": "1.0.1",
+    "Microsoft.AspNetCore.Diagnostics": "1.0.0",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
+    "Microsoft.Extensions.Logging.Console": "1.0.0",
+    "Microsoft.AspNetCore.Mvc": "1.0.0",
+    "Newtonsoft.Json": "9.0.1",
+    "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+    "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0",
+    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0"
+  },
+
+  "runtimes": {
+    "win10-x64": {},
+    "osx.10.11-x64": {},
+    "ubuntu.14.04-x64": {}
+  },
+  
+  "userSecretsId": "tweets10app",
+  
+  "frameworks": {
+    "netcoreapp1.0": {}
+  },
+
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
+  },
+
+  "runtimeOptions": {
+    "configProperties": {
+      "System.GC.Server": true
+    }
+  },
+
+  "publishOptions": {
+    "include": [
+      "wwwroot",
+      "web.config"
+    ]
+  }
+
+  //"scripts": {
+  //  "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
+  //}
+}

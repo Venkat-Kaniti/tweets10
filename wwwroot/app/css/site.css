@@ -1,0 +1,47 @@
+body {
+  margin:0; 
+  padding:10px;
+}
+.tweetbox {
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+}
+.tweetsearch {
+    margin-top: 10px;
+}
+.tweet {
+    border-bottom: 1px solid darkgreen;
+    min-height: 85px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    background-color: lightskyblue;
+    margin: 5px 0;
+    padding: 10px 0 0 0;
+    overflow: auto;
+}
+.tweet .avatar img {
+    max-width: 100%;
+    height: auto;
+    
+}
+.tweet .tweet-header {
+    border-bottom: 1px solid #999;
+    min-height: 30px;
+    overflow: auto;
+    padding: 0;
+}
+.tweet .tweet-text {
+    min-height: 50px;
+    color: black;
+    overflow: auto;
+    padding-top: 2px;
+}
+
+.label-as-badge {
+    border-radius: 1em;
+    background-color: darkcyan;
+    padding: 5px;
+    font-size: small;
+    font-weight: bold;
+    color: whitesmoke;
+}
