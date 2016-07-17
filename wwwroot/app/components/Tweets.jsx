@@ -6,7 +6,6 @@ import style from '../css/site.css';
 import React, { PropTypes } from 'react';
 
 const Tweets = ({ user, tweets }) => {
-    console.log(tweets);
     return (
         <div>
             {
